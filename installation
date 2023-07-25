@@ -1,0 +1,8 @@
+Installation of Tensorflow 2 Object Detection API is done following the tutorial on 
+https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html#test-your-installation
+without the GPU part. 
+
+For the COCO API installation VisualC++ 2015 build tools was installed.
+
+After the installation the test was not running because of protoc so I followed 
+https://stackoverflow.com/questions/71759248/importerror-cannot-import-name-builder-from-google-protobuf-internal
